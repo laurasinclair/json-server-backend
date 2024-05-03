@@ -1,0 +1,62 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "userId": 12323,
+      "title": "My Article 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ratione obcaecati corporis officiis iure quisquam dignissimos quaerat eum itaque fugit?"
+    },
+    {
+      "id": 2,
+      "userId": 23343,
+      "title": "My Article 2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed ratione obcaecati corporis officiis iure quisquam dignissimos quaerat eum itaque fugit?"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userId": 12323,
+      "username": "johndoe01",
+      "firstName": "John",
+      "lastName": "Doe",
+      "savedArticles": [
+        "-we-can-save-our-planet-faster-robotics-tech-and",
+        "a-video-shows-people-trying-to-pull-2-black-bear-c",
+        "apple-is-making-progress-cleaning-up-its-dirty-sup",
+        "earth-day-ecosia-launches-world-s-first-energy-ge",
+        "openbsd-game-of-trees-0-98-released"
+      ],
+      "profilePicture": "",
+      "test": "22299"
+    },
+    {
+      "id": 2,
+      "userId": 23494,
+      "username": "billbob",
+      "firstName": "Bill",
+      "lastName": "Bob",
+      "savedArticles": [
+        "they-turned-cattle-ranches-into-tropical-forest",
+        "earth-day-ecosia-launches-world-s-first-energy-ge"
+      ]
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "description": "Use Vite to create a basic React app"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "description": "Install React Router and setup routes"
+    },
+    {
+      "id": 3,
+      "projectId": 2,
+      "description": "Create a form with 5 input fields"
+    }
+  ]
+}
